@@ -54,10 +54,17 @@
     text-decoration: none;
 }
 
+.projeto-ux__container {
+    display: flex; 
+    width: 100%;
+    justify-content: center;
+}
+
 .projeto-ux__figma-mobile{
    display: flex;
    gap: 0.5em;
    padding: 2em 0;
+   justify-content: center;
 }
 
 .projeto-ux__botao-menor{
@@ -75,4 +82,15 @@
     color: var(--cinza-claro);
     background-color: var(--roxo-principal);
     border-radius: 0.5em;
+}
+
+.projeto-ux__botao-menor {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width:760px) {
+    .projeto-ux__container ul {
+        width: 300px;
+    }
 }
