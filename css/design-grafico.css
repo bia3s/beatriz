@@ -1,0 +1,25 @@
+.design-grafico{
+    padding:2em 0.5em;
+    display:flex;
+}
+
+.design-grafico strong {
+    list-style: bold
+}
+
+.design-grafico__titulo{
+    position: relative;
+    
+}
+
+.design-grafico__titulo h2 {
+    top: 7px;
+    left: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+ }
+
+.design-grafico__posts{
+    flex-wrap: wrap;
+ }

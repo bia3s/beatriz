@@ -1,0 +1,110 @@
+
+
+
+.banner__titulo-sobre{
+    text-align: center;
+    color: var(--cinza-claro);
+    padding: 1em;
+}
+
+.banner__linha-sobre{
+    border-bottom: 2px solid var(--roxo-principal);
+    width: 300px; 
+}
+.banner__foto{
+    padding: 3em;
+    height: 300px;
+    width: 300px;
+}    
+
+
+.formacao{
+    padding: 1em;
+}
+
+
+.formacao__titulo{
+    position: relative;
+}
+
+.formacao__titulo h2 {
+    top: 7px;
+    left: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+}
+
+.formacao__conteudo{
+    padding: 2rem;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+.formacao__interesses__series-legenda p,
+.formacao__interesses__praia-legenda p,
+.formacao__interesses__harry-potter-legenda p,
+.formacao__interesses__leitura-legenda p,
+.formacao__interesses__viagens-legenda p,
+.formacao__interesses__pets-legenda p,
+
+.formacao__interesses__series-img,
+.formacao__interesses__praia-img,
+.formacao__interesses__harry-potter-img,
+.formacao__interesses__leitura-img,
+.formacao__interesses__viagens-img,
+.formacao__interesses__pets-img {
+    display: flex;
+    justify-content: center;
+}
+
+
+.formacao__interesses__titulo{
+    padding: 1em 0;
+}
+
+
+.formacao__interesses{
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+
+}
+
+.formacao__interesses__titulo h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.formacao__interesses__botao{
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+}  
+
+.formacao__interesses__botao p{
+    width: 330px;
+    padding: 1rem;
+    text-align: center;
+    color: var(--cinza-claro);
+    background-color: var(--roxo-principal);
+    border-radius: 0.5em;
+}
+
+
+@media screen and (min-width:760px) {
+    .banner__linha-sobre {
+        margin: 2rem;
+    }
+
+    .banner__foto{
+        padding: 1em;
+    } 
+
+    .formacao__titulo h2,
+    .formacao__interesses__titulo h2 {
+        font-size: 32px;
+    }
+}
